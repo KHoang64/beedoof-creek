@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#10251b">
+<meta name="description" content="Explore Beaver Creek in first person or settle in for a quiet woodland film. Play on desktop or with portrait touch controls.">
+<title>Beaver Creek · A quiet afternoon</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2310251b'/%3E%3Cpath d='M32 8 12 38h12v16h16V38h12z' fill='%23bacb92'/%3E%3C/svg%3E">
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#10251b;color:#f0eed7;font-family:system-ui,sans-serif}body{height:100dvh}#unity-canvas{display:block;width:100%;height:100%;touch-action:none;outline:0}#loading{position:fixed;inset:0;display:grid;place-items:center;padding:24px;background:radial-gradient(ellipse at 65% 15%,#38553b 0,transparent 65%),#10251b}.card{width:min(100%,430px)}.eyebrow{font-size:11px;letter-spacing:.2em;color:#b9cb94}h1{font:normal clamp(42px,10vw,60px)/1.05 Georgia,serif;margin:24px 0}p{font-size:15px;line-height:1.7;color:#c2caba}.line{height:3px;background:#344637;margin:32px 0 16px;overflow:hidden}#bar{height:100%;width:0;background:#bdce98;transition:width .3s}#status{font-size:12px;letter-spacing:.05em}#error{display:none;color:#f7d9b4}button{background:#bdce98;color:#10251b;border:0;padding:15px 22px;margin-top:12px;font-size:15px;cursor:pointer}.hint{margin-top:42px;font-size:12px;color:#97a88f}#loading[hidden]{display:none}
+</style>
+</head>
+<body>
+<canvas id="unity-canvas" tabindex="0" aria-label="Beaver Creek interactive 3D experience"></canvas>
+<div id="loading"><main class="card"><div class="eyebrow">FIELD NOTES / BEAVER POND</div><h1>A moment<br>in the woods.</h1><p>Explore the shoreline or watch life at the pond.<br>Your quiet afternoon is loading.</p><div class="line"><div id="bar"></div></div><div id="status" role="status">Preparing the creek…</div><div id="error" role="alert"></div><p class="hint">Desktop: WASD + mouse<br>Mobile: left thumb to move · swipe right to look</p></main></div>
+<script>
+const canvas=document.getElementById('unity-canvas'), loading=document.getElementById('loading');
+function fail(message){document.getElementById('status').textContent='The creek could not load.';const box=document.getElementById('error');box.style.display='block';box.textContent='Please try again in a browser with WebGL 2 support. '+message;const retry=document.createElement('button');retry.textContent='Try again';retry.onclick=()=>location.reload();box.appendChild(document.createElement('br'));box.appendChild(retry);}
+canvas.addEventListener('contextmenu',e=>e.preventDefault());
+const script=document.createElement('script');script.src='Build/BeaverCreekWeb.loader.js';script.onerror=()=>fail('Check your connection.');
+script.onload=()=>createUnityInstance(canvas,{
+ dataUrl:'Build/BeaverCreekWeb.data.gz',frameworkUrl:'Build/BeaverCreekWeb.framework.js.gz',codeUrl:'Build/BeaverCreekWeb.wasm.gz',streamingAssetsUrl:'StreamingAssets',
+ companyName:"DefaultCompany",productName:"BeeDoofCreek",productVersion:"0.1.0",
+ devicePixelRatio:Math.min(window.devicePixelRatio||1,matchMedia('(pointer:coarse)').matches?1.25:1.5),
+ showBanner:(message,type)=>{if(type==='error')console.error(message);else console.warn(message);}
+},progress=>{document.getElementById('bar').style.width=(progress*100)+'%';document.getElementById('status').textContent=progress<.9?'Loading the creek · '+Math.round(progress*100)+'%':'Opening the woodland…';}).then(instance=>{window.creekInstance=instance;loading.hidden=true;canvas.focus();}).catch(error=>fail(String(error)));
+document.body.appendChild(script);
+</script>
+</body></html>
