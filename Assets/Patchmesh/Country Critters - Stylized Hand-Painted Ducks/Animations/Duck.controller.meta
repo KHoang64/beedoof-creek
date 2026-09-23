@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6e93a291587f4e941a3a48e09968bb0f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 399938
+  packageName: 'Country Critters: Stylized Hand-Painted Ducks'
+  packageVersion: 1.0
+  assetPath: Assets/Patchmesh/Country Critters - Stylized Hand-Painted Ducks/Animations/Duck.controller
+  uploadId: 972602

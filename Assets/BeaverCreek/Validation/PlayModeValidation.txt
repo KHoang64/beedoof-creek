@@ -1,0 +1,6 @@
+Play-mode checks started 9/20/2026 8:29:47 AM
+Cutscene: 64 seconds; shots visited=0,1,2,3; behaviors=Idle,Swim,Flap,PreenFront,PreenBack; distinct animated flap wing poses=1112; ducks=7; peak live weather particles=222; runtime errors=0
+PASS
+FirstPerson: input-driven displacement=9.35m; grounded=True; final y=0.71; runtime errors=0
+PASS
+Completed 9/20/2026 8:31:36 AM; restored previously open scene roots.

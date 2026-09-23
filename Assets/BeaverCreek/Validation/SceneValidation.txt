@@ -1,0 +1,4 @@
+Beaver Creek serialized scene validation
+9/20/2026 9:04:15 AM
+FirstPerson: objects=5288, missing scripts=0, unsupported/null materials=0, ducks=7, cameras=1
+Cutscene: objects=5238, missing scripts=0, unsupported/null materials=0, ducks=7, cameras=1

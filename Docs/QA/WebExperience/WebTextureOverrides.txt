@@ -1,0 +1,2 @@
+WebGL-only maximum texture size: 1024. Original .meta files are in Backups/WebTextureImport.
+Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputSystemUIInputModule@64.png

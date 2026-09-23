@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2dd2a18609d57a245be0cdb04dd38ee2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 399938
+  packageName: 'Country Critters: Stylized Hand-Painted Ducks'
+  packageVersion: 1.0
+  assetPath: Assets/Patchmesh/Country Critters - Stylized Hand-Painted Ducks/Materials/Drake
+    - Feather 3.mat
+  uploadId: 972602

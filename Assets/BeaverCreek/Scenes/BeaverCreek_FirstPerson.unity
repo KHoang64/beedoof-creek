@@ -1,0 +1,3961 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 1
+  m_FogColor: {r: 0.6, g: 0.64, b: 0.64, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.0055
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.72, g: 0.74, b: 0.75, a: 1}
+  m_AmbientEquatorColor: {r: 0.51, g: 0.54, b: 0.5, a: 1}
+  m_AmbientGroundColor: {r: 0.28, g: 0.3, b: 0.25, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 1
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 1fc7deb52dcca416c8da77f821cb425b, type: 2}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 0.65
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 2
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 1
+    m_PVRFilteringGaussRadiusAO: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &2561876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2561877}
+  - component: {fileID: 2561878}
+  m_Layer: 0
+  m_Name: Waterline 27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2561877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561876}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.96589816, z: -0, w: 0.25892228}
+  m_LocalPosition: {x: -29.980904, y: 1, z: 5.3776245}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2561878
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561876}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.9747977}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &130451557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 130451558}
+  - component: {fileID: 130451559}
+  m_Layer: 0
+  m_Name: Waterline 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &130451558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130451557}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.038302086, z: -0, w: 0.9992662}
+  m_LocalPosition: {x: 33.3567, y: 1, z: 19.866524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &130451559
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130451557}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.8440347}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &162740321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 162740323}
+  - component: {fileID: 162740322}
+  m_Layer: 0
+  m_Name: Creek experience
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &162740322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162740321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 246189d2999754d39862d7471673af6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BeaverCreek.CreekExperience
+  isMenu: 0
+  backdrop: {fileID: 0}
+  player: {fileID: 1214706719}
+  cinematic: {fileID: 0}
+--- !u!4 &162740323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162740321}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &164944143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 164944144}
+  m_Layer: 0
+  m_Name: "Pond safety boundary \u2022 collision only"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &164944144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164944143}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 130451558}
+  - {fileID: 2080631111}
+  - {fileID: 1712108375}
+  - {fileID: 1408471953}
+  - {fileID: 838424804}
+  - {fileID: 1879921427}
+  - {fileID: 1959272537}
+  - {fileID: 1560800746}
+  - {fileID: 1546887377}
+  - {fileID: 912671984}
+  - {fileID: 346531890}
+  - {fileID: 1504383949}
+  - {fileID: 2136128959}
+  - {fileID: 1338881480}
+  - {fileID: 210254138}
+  - {fileID: 1688751847}
+  - {fileID: 1717227199}
+  - {fileID: 719137637}
+  - {fileID: 2006186874}
+  - {fileID: 987170032}
+  - {fileID: 2132179883}
+  - {fileID: 738119091}
+  - {fileID: 1228966190}
+  - {fileID: 1919351876}
+  - {fileID: 1245958121}
+  - {fileID: 1339400487}
+  - {fileID: 1093617221}
+  - {fileID: 2561877}
+  - {fileID: 783639761}
+  - {fileID: 1571453917}
+  - {fileID: 713910429}
+  - {fileID: 1785240201}
+  - {fileID: 610984146}
+  - {fileID: 1679978056}
+  - {fileID: 1311883908}
+  - {fileID: 375063271}
+  - {fileID: 576473753}
+  - {fileID: 1096641695}
+  - {fileID: 2016678095}
+  - {fileID: 2043264859}
+  - {fileID: 1841419378}
+  - {fileID: 1099893750}
+  - {fileID: 1599853810}
+  - {fileID: 1300968170}
+  - {fileID: 1506715025}
+  - {fileID: 1996293858}
+  - {fileID: 1177193733}
+  - {fileID: 1501148446}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &210254137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 210254138}
+  - component: {fileID: 210254139}
+  m_Layer: 0
+  m_Name: Waterline 14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &210254138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210254137}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.799484, z: -0, w: 0.60068744}
+  m_LocalPosition: {x: -10.74517, y: 1, z: 45.024216}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &210254139
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210254137}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.4201903}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &346531889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 346531890}
+  - component: {fileID: 346531891}
+  m_Layer: 0
+  m_Name: Waterline 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &346531890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346531889}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.6452049, z: -0, w: 0.7640096}
+  m_LocalPosition: {x: 6.521532, y: 1, z: 45.990402}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &346531891
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346531889}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.4593434}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &375063270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 375063271}
+  - component: {fileID: 375063272}
+  m_Layer: 0
+  m_Name: Waterline 35
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &375063271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375063270}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7265911, z: -0, w: 0.6870702}
+  m_LocalPosition: {x: -2.1863089, y: 1, z: -10.477662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &375063272
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375063270}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.479459}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &468701544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 468701546}
+  - component: {fileID: 468701545}
+  m_Layer: 0
+  m_Name: Woodland color grade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &468701545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468701544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.Volume
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 0ccc3ba9885294487b053ee618304382, type: 2}
+--- !u!4 &468701546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468701544}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &507892820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 138501188967835477, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0011904814
+      objectReference: {fileID: 0}
+    - target: {fileID: 138501188967835477, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.038181737
+      objectReference: {fileID: 0}
+    - target: {fileID: 138501188967835477, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.9990117
+      objectReference: {fileID: 0}
+    - target: {fileID: 138501188967835477, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.022738662
+      objectReference: {fileID: 0}
+    - target: {fileID: 138501188967835477, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00086892495
+      objectReference: {fileID: 0}
+    - target: {fileID: 208067882545229799, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0008508066
+      objectReference: {fileID: 0}
+    - target: {fileID: 208067882545229799, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0007889147
+      objectReference: {fileID: 0}
+    - target: {fileID: 208067882545229799, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0011104381
+      objectReference: {fileID: 0}
+    - target: {fileID: 208067882545229799, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.65651715
+      objectReference: {fileID: 0}
+    - target: {fileID: 208067882545229799, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7027953
+      objectReference: {fileID: 0}
+    - target: {fileID: 208067882545229799, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.05186044
+      objectReference: {fileID: 0}
+    - target: {fileID: 208067882545229799, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2690251
+      objectReference: {fileID: 0}
+    - target: {fileID: 285875160574165824, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00012876923
+      objectReference: {fileID: 0}
+    - target: {fileID: 285875160574165824, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004048962
+      objectReference: {fileID: 0}
+    - target: {fileID: 285875160574165824, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95068985
+      objectReference: {fileID: 0}
+    - target: {fileID: 285875160574165824, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00493378
+      objectReference: {fileID: 0}
+    - target: {fileID: 285875160574165824, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.30842906
+      objectReference: {fileID: 0}
+    - target: {fileID: 285875160574165824, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.032188084
+      objectReference: {fileID: 0}
+    - target: {fileID: 741937596179335371, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00021804437
+      objectReference: {fileID: 0}
+    - target: {fileID: 741937596179335371, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.93233764
+      objectReference: {fileID: 0}
+    - target: {fileID: 741937596179335371, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.06386467
+      objectReference: {fileID: 0}
+    - target: {fileID: 741937596179335371, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.34078553
+      objectReference: {fileID: 0}
+    - target: {fileID: 741937596179335371, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.10263119
+      objectReference: {fileID: 0}
+    - target: {fileID: 763980476866278361, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0014671396
+      objectReference: {fileID: 0}
+    - target: {fileID: 994497277673744504, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00021804437
+      objectReference: {fileID: 0}
+    - target: {fileID: 994497277673744504, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.93233764
+      objectReference: {fileID: 0}
+    - target: {fileID: 994497277673744504, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.06386467
+      objectReference: {fileID: 0}
+    - target: {fileID: 994497277673744504, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.34078553
+      objectReference: {fileID: 0}
+    - target: {fileID: 994497277673744504, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.10263119
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076424821407459828, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00021804437
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076424821407459828, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92994994
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076424821407459828, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.05661909
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076424821407459828, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3420639
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076424821407459828, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.12239161
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147023500696768037, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147023500696768037, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147023500696768037, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147023500696768037, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147023500696768037, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147023500696768037, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147023500696768037, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147023500696768037, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147023500696768037, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147023500696768037, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485648323118254571, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0011904814
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485648323118254571, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.038181737
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485648323118254571, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.9990117
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485648323118254571, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.022738662
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485648323118254571, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00086892495
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677069672477343104, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00012876923
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677069672477343104, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004048962
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677069672477343104, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9506898
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677069672477343104, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0049338457
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677069672477343104, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.30842906
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677069672477343104, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.032188065
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839887803059744576, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0014078374
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839887803059744576, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95318097
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839887803059744576, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.30176005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839887803059744576, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00558463
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839887803059744576, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.018861523
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032092990523374271, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0014671396
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330690935581594436, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.85513717
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330690935581594436, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5165936
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330690935581594436, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.029030796
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330690935581594436, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.03207547
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421581935236721865, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00012876923
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421581935236721865, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004048962
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421581935236721865, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95068985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421581935236721865, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00493378
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421581935236721865, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.30842906
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421581935236721865, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.032188084
+      objectReference: {fileID: 0}
+    - target: {fileID: 2544585458000176732, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.117783844
+      objectReference: {fileID: 0}
+    - target: {fileID: 2544585458000176732, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 9.353116e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2567118781701773548, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0014671396
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600203309596126261, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2675403215568686582, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00012876923
+      objectReference: {fileID: 0}
+    - target: {fileID: 2675403215568686582, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004048962
+      objectReference: {fileID: 0}
+    - target: {fileID: 2675403215568686582, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9506898
+      objectReference: {fileID: 0}
+    - target: {fileID: 2675403215568686582, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0049338457
+      objectReference: {fileID: 0}
+    - target: {fileID: 2675403215568686582, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.30842906
+      objectReference: {fileID: 0}
+    - target: {fileID: 2675403215568686582, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.032188065
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679473295375713860, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0013857557
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679473295375713860, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.002684798
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752245961307835471, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0014078374
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752245961307835471, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95318097
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752245961307835471, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.30176005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752245961307835471, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00558463
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752245961307835471, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.018861523
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958447965578836085, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.117783844
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958447965578836085, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 9.353116e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071262911707469556, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.117783844
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071262911707469556, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 9.353116e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955160383242447485, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0014671396
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021620807378869896, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00012876923
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021620807378869896, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004048962
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021620807378869896, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9506898
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021620807378869896, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0049338457
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021620807378869896, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.30842906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021620807378869896, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.032188065
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176280659315439024, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00021804437
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176280659315439024, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92994994
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176280659315439024, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.05661909
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176280659315439024, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3420639
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176280659315439024, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.12239161
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318546085050093989, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0013857557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318546085050093989, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.002684798
+      objectReference: {fileID: 0}
+    - target: {fileID: 4320359537651502294, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0013857557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4320359537651502294, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.002684798
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446536029126744091, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0013857557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446536029126744091, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.002684798
+      objectReference: {fileID: 0}
+    - target: {fileID: 4547629666644956169, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0008284846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4547629666644956169, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0010407837
+      objectReference: {fileID: 0}
+    - target: {fileID: 4547629666644956169, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0001238729
+      objectReference: {fileID: 0}
+    - target: {fileID: 4547629666644956169, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8854485
+      objectReference: {fileID: 0}
+    - target: {fileID: 4547629666644956169, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.42850772
+      objectReference: {fileID: 0}
+    - target: {fileID: 4547629666644956169, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.13391571
+      objectReference: {fileID: 0}
+    - target: {fileID: 4547629666644956169, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.120119505
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848020930463650104, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_Name
+      value: BeaverCreekEnvironment
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901701121345380905, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0008284846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901701121345380905, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0010407837
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901701121345380905, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0001238729
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901701121345380905, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8854485
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901701121345380905, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.42850772
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901701121345380905, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.13391571
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901701121345380905, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.120119505
+      objectReference: {fileID: 0}
+    - target: {fileID: 5031274884479178298, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.85513717
+      objectReference: {fileID: 0}
+    - target: {fileID: 5031274884479178298, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5165936
+      objectReference: {fileID: 0}
+    - target: {fileID: 5031274884479178298, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.029030796
+      objectReference: {fileID: 0}
+    - target: {fileID: 5031274884479178298, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.03207547
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725139384894669992, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.117783844
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725139384894669992, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 9.353116e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265148938517991432, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00012876923
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265148938517991432, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004048962
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265148938517991432, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95068985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265148938517991432, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00493378
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265148938517991432, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.30842906
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265148938517991432, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.032188084
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008279523848618786, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0014671396
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229693422916409125, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0008508066
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229693422916409125, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0007889147
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229693422916409125, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0011104381
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229693422916409125, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.65651715
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229693422916409125, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7027953
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229693422916409125, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.05186044
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229693422916409125, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2690251
+      objectReference: {fileID: 0}
+    - target: {fileID: 7806115199379400073, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0013857557
+      objectReference: {fileID: 0}
+    - target: {fileID: 7806115199379400073, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.002684798
+      objectReference: {fileID: 0}
+    - target: {fileID: 7882317874230269096, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00012876923
+      objectReference: {fileID: 0}
+    - target: {fileID: 7882317874230269096, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004048962
+      objectReference: {fileID: 0}
+    - target: {fileID: 7882317874230269096, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95068985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7882317874230269096, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00493378
+      objectReference: {fileID: 0}
+    - target: {fileID: 7882317874230269096, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.30842906
+      objectReference: {fileID: 0}
+    - target: {fileID: 7882317874230269096, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.032188084
+      objectReference: {fileID: 0}
+    - target: {fileID: 8250899619195774121, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00012876923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8250899619195774121, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004048962
+      objectReference: {fileID: 0}
+    - target: {fileID: 8250899619195774121, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9506898
+      objectReference: {fileID: 0}
+    - target: {fileID: 8250899619195774121, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0049338457
+      objectReference: {fileID: 0}
+    - target: {fileID: 8250899619195774121, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.30842906
+      objectReference: {fileID: 0}
+    - target: {fileID: 8250899619195774121, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.032188065
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426739096499556099, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.117783844
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426739096499556099, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 9.353116e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519345400525653398, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00012876923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519345400525653398, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004048962
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519345400525653398, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95068985
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519345400525653398, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00493378
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519345400525653398, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.30842906
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519345400525653398, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.032188084
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078174688449431188, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00012876923
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078174688449431188, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004048962
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078174688449431188, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9506898
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078174688449431188, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0049338457
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078174688449431188, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.30842906
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078174688449431188, guid: 05496d0710b714be697e9a039a748635, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.032188065
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05496d0710b714be697e9a039a748635, type: 3}
+--- !u!1 &576473752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576473753}
+  - component: {fileID: 576473754}
+  m_Layer: 0
+  m_Name: Waterline 36
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &576473753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576473752}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.6870702, z: -0, w: 0.72659105}
+  m_LocalPosition: {x: 2.1863177, y: 1, z: -10.477661}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &576473754
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576473752}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.4794745}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &610984145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 610984146}
+  - component: {fileID: 610984147}
+  m_Layer: 0
+  m_Name: Waterline 32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &610984146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610984145}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.8330746, z: -0, w: 0.5531606}
+  m_LocalPosition: {x: -14.784941, y: 1, z: -7.595644}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &610984147
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610984145}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.36422}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &676983206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 676983208}
+  - component: {fileID: 676983207}
+  m_Layer: 0
+  m_Name: "Pond canopy reflection \u2022 freshly captured"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!215 &676983207
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676983206}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 2
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 256
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 140, y: 55, z: 145}
+  m_BoxOffset: {x: 0, y: 10, z: 0}
+  m_NearClip: 0.2
+  m_FarClip: 180
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 0.8
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 1
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 8900000, guid: c5c0a98d0bb054a7cbec3a65d145e86e, type: 3}
+--- !u!4 &676983208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676983206}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &713910428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 713910429}
+  - component: {fileID: 713910430}
+  m_Layer: 0
+  m_Name: Waterline 30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &713910429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713910428}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.89424133, z: -0, w: 0.44758517}
+  m_LocalPosition: {x: -22.04079, y: 1, z: -3.4565806}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &713910430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713910428}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.215638}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &719137636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 719137637}
+  - component: {fileID: 719137638}
+  m_Layer: 0
+  m_Name: Waterline 17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &719137637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719137636}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.8942413, z: -0, w: -0.4475852}
+  m_LocalPosition: {x: -22.04079, y: 1, z: 39.45658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &719137638
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719137636}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.2156477}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &738119090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 738119091}
+  - component: {fileID: 738119092}
+  m_Layer: 0
+  m_Name: Waterline 21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &738119091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738119090}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9821507, z: -0, w: -0.18809608}
+  m_LocalPosition: {x: -31.654242, y: 1, z: 27.173481}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &738119092
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738119090}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.9122782}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &783639760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 783639761}
+  - component: {fileID: 783639762}
+  m_Layer: 0
+  m_Name: Waterline 28
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &783639761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783639760}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.94538, z: -0, w: 0.32597044}
+  m_LocalPosition: {x: -27.79459, y: 1, z: 2.1447062}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &783639762
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783639760}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.050007}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &838424803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 838424804}
+  - component: {fileID: 838424805}
+  m_Layer: 0
+  m_Name: Waterline 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &838424804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838424803}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.32597047, z: -0, w: 0.94538}
+  m_LocalPosition: {x: 27.794594, y: 1, z: 33.855286}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &838424805
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838424803}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.0500064}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &912671983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 912671984}
+  - component: {fileID: 912671985}
+  m_Layer: 0
+  m_Name: Waterline 9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &912671984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912671983}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.6006873, z: -0, w: 0.799484}
+  m_LocalPosition: {x: 10.745167, y: 1, z: 45.024216}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &912671985
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912671983}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.4201903}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &987170031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 987170032}
+  - component: {fileID: 987170033}
+  m_Layer: 0
+  m_Name: Waterline 19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &987170032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987170031}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.94537985, z: -0, w: -0.32597077}
+  m_LocalPosition: {x: -27.794594, y: 1, z: 33.85529}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &987170033
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987170031}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.0500035}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1093617220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1093617221}
+  - component: {fileID: 1093617222}
+  m_Layer: 0
+  m_Name: Waterline 26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1093617221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093617220}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9821507, z: -0, w: 0.18809608}
+  m_LocalPosition: {x: -31.654238, y: 1, z: 8.826514}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1093617222
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093617220}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.9122782}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1096641694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1096641695}
+  - component: {fileID: 1096641696}
+  m_Layer: 0
+  m_Name: Waterline 37
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1096641695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096641694}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.64520496, z: -0, w: 0.76400954}
+  m_LocalPosition: {x: 6.521536, y: 1, z: -9.9904}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1096641696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096641694}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.459332}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1099893749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1099893750}
+  - component: {fileID: 1099893751}
+  m_Layer: 0
+  m_Name: Waterline 41
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1099893750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099893749}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.447585, z: -0, w: 0.8942414}
+  m_LocalPosition: {x: 22.040798, y: 1, z: -3.4565754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1099893751
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099893749}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.2156534}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1177193732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1177193733}
+  - component: {fileID: 1177193734}
+  m_Layer: 0
+  m_Name: Waterline 46
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1177193733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177193732}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.114204146, z: -0, w: 0.9934573}
+  m_LocalPosition: {x: 32.785957, y: 1, z: 12.432365}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1177193734
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177193732}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.8674428}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1214706718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1214706721}
+  - component: {fileID: 1214706720}
+  - component: {fileID: 1214706719}
+  m_Layer: 0
+  m_Name: "First person \u2022 shoreline explorer"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1214706719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214706718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2957492c4c06e47fca8b49af0fa7ce26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BeaverCreek.CreekFirstPerson
+  view: {fileID: 1274247240}
+  walkSpeed: 3.1
+  sensitivity: 0.085
+  initialPitch: 6
+--- !u!143 &1214706720
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214706718}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 1.75
+  m_Radius: 0.3
+  m_SlopeLimit: 48
+  m_StepOffset: 0.28
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.88, z: 0}
+--- !u!4 &1214706721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214706718}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.119330905, z: 0, w: -0.99285454}
+  m_LocalPosition: {x: 14, y: 1.509993, z: -23}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1274247240}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1228966189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1228966190}
+  - component: {fileID: 1228966191}
+  m_Layer: 0
+  m_Name: Waterline 22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1228966190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228966189}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9934574, z: -0, w: -0.11420392}
+  m_LocalPosition: {x: -32.785957, y: 1, z: 23.567635}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1228966191
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228966189}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.8674502}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1245958120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1245958121}
+  - component: {fileID: 1245958122}
+  m_Layer: 0
+  m_Name: Waterline 24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1245958121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245958120}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9992662, z: -0, w: 0.038302086}
+  m_LocalPosition: {x: -33.3567, y: 1, z: 16.133472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1245958122
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245958120}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.8440347}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1274247239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274247240}
+  - component: {fileID: 1274247243}
+  - component: {fileID: 1274247242}
+  - component: {fileID: 1274247241}
+  m_Layer: 0
+  m_Name: Explorer camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274247240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274247239}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.05233596, y: 0, z: 0, w: 0.9986295}
+  m_LocalPosition: {x: 0, y: 1.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1214706721}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &1274247241
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274247239}
+  m_Enabled: 1
+--- !u!114 &1274247242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274247239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 1
+  m_RequiresOpaqueTextureOption: 1
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 2
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
+--- !u!20 &1274247243
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274247239}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.06
+  far clip plane: 240
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!1 &1300968169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1300968170}
+  - component: {fileID: 1300968171}
+  m_Layer: 0
+  m_Name: Waterline 43
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1300968170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300968169}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.32597044, z: -0, w: 0.94538}
+  m_LocalPosition: {x: 27.794598, y: 1, z: 2.1447158}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1300968171
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300968169}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.050013}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1311883907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1311883908}
+  - component: {fileID: 1311883909}
+  m_Layer: 0
+  m_Name: Waterline 34
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1311883908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311883907}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7640093, z: -0, w: 0.64520526}
+  m_LocalPosition: {x: -6.5215273, y: 1, z: -9.990402}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1311883909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311883907}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.4593472}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1338881479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1338881480}
+  - component: {fileID: 1338881481}
+  m_Layer: 0
+  m_Name: Waterline 13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1338881480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338881479}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7640096, z: -0, w: 0.6452049}
+  m_LocalPosition: {x: -6.521535, y: 1, z: 45.990402}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1338881481
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338881479}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.4593434}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1339400486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1339400487}
+  - component: {fileID: 1339400488}
+  m_Layer: 0
+  m_Name: Waterline 25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1339400487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339400486}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.99345726, z: -0, w: 0.11420447}
+  m_LocalPosition: {x: -32.785957, y: 1, z: 12.432362}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1339400488
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339400486}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.8674493}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1408471952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1408471953}
+  - component: {fileID: 1408471954}
+  m_Layer: 0
+  m_Name: Waterline 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1408471953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408471952}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.25892237, z: -0, w: 0.96589816}
+  m_LocalPosition: {x: 29.980907, y: 1, z: 30.622374}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1408471954
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408471952}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.974789}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1501148445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1501148446}
+  - component: {fileID: 1501148447}
+  m_Layer: 0
+  m_Name: Waterline 47
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1501148446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501148445}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.038302016, z: -0, w: 0.9992662}
+  m_LocalPosition: {x: 33.3567, y: 1, z: 16.133478}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1501148447
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501148445}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.8440413}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1504383948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1504383949}
+  - component: {fileID: 1504383950}
+  m_Layer: 0
+  m_Name: Waterline 11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1504383949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504383948}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.68707037, z: -0, w: 0.7265909}
+  m_LocalPosition: {x: 2.186312, y: 1, z: 46.47766}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1504383950
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504383948}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.479467}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1506715024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1506715025}
+  - component: {fileID: 1506715026}
+  m_Layer: 0
+  m_Name: Waterline 44
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1506715025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506715024}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.2589222, z: -0, w: 0.9658982}
+  m_LocalPosition: {x: 29.980911, y: 1, z: 5.37763}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1506715026
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506715024}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.9747837}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1546887376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1546887377}
+  - component: {fileID: 1546887378}
+  m_Layer: 0
+  m_Name: Waterline 8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1546887377
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546887376}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.5531609, z: -0, w: 0.83307445}
+  m_LocalPosition: {x: 14.784946, y: 1, z: 43.595642}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1546887378
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546887376}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.364211}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1560800745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1560800746}
+  - component: {fileID: 1560800747}
+  m_Layer: 0
+  m_Name: Waterline 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1560800746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560800745}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.5022474, z: -0, w: 0.864724}
+  m_LocalPosition: {x: 18.57175, y: 1, z: 41.72912}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1560800747
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560800745}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.294637}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1571453916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1571453917}
+  - component: {fileID: 1571453918}
+  m_Layer: 0
+  m_Name: Waterline 29
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1571453917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571453916}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9212889, z: -0, w: 0.38887885}
+  m_LocalPosition: {x: -25.132702, y: 1, z: -0.8169198}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1571453918
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571453916}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.13224}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1599853809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1599853810}
+  - component: {fileID: 1599853811}
+  m_Layer: 0
+  m_Name: Waterline 42
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1599853810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599853809}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.38887852, z: -0, w: 0.921289}
+  m_LocalPosition: {x: 25.132711, y: 1, z: -0.8169112}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1599853811
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599853809}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.132232}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1679978055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1679978056}
+  - component: {fileID: 1679978057}
+  m_Layer: 0
+  m_Name: Waterline 33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1679978056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679978055}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.79948413, z: -0, w: 0.60068727}
+  m_LocalPosition: {x: -10.745161, y: 1, z: -9.0242195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1679978057
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679978055}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.4201837}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1688751846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1688751847}
+  - component: {fileID: 1688751848}
+  m_Layer: 0
+  m_Name: Waterline 15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1688751847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688751846}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.8330746, z: -0, w: 0.5531606}
+  m_LocalPosition: {x: -14.78495, y: 1, z: 43.595642}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1688751848
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688751846}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.3642135}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1691750415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1691750417}
+  - component: {fileID: 1691750416}
+  - component: {fileID: 1691750418}
+  m_Layer: 0
+  m_Name: "Diffuse overcast daylight \u2022 no direct sun"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1691750416
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691750415}
+  m_Enabled: 1
+  serializedVersion: 13
+  m_Type: 1
+  m_Color: {r: 0.94, g: 0.96, b: 1, a: 1}
+  m_Intensity: 0.8
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.802082
+  m_CookieSize2D: {x: 0.5, y: 0.5}
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.58
+    m_Bias: 0.035
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShapeRadius: 0.025
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &1691750417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691750415}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.38884, y: -0.41501692, z: 0.20241728, w: 0.7972401}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1691750418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691750415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
+--- !u!1 &1712108374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1712108375}
+  - component: {fileID: 1712108376}
+  m_Layer: 0
+  m_Name: Waterline 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1712108375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712108374}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.18809594, z: -0, w: 0.9821507}
+  m_LocalPosition: {x: 31.654238, y: 1, z: 27.173487}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1712108376
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712108374}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.9122798}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1717227198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1717227199}
+  - component: {fileID: 1717227200}
+  m_Layer: 0
+  m_Name: Waterline 16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1717227199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717227198}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.86472386, z: -0, w: 0.50224763}
+  m_LocalPosition: {x: -18.571754, y: 1, z: 41.72912}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1717227200
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717227198}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.294634}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1785240200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1785240201}
+  - component: {fileID: 1785240202}
+  m_Layer: 0
+  m_Name: Waterline 31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1785240201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785240200}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.8647239, z: -0, w: 0.5022476}
+  m_LocalPosition: {x: -18.571754, y: 1, z: -5.729116}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1785240202
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785240200}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.294645}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1841419377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1841419378}
+  - component: {fileID: 1841419379}
+  m_Layer: 0
+  m_Name: Waterline 40
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1841419378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841419377}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.5022477, z: -0, w: 0.8647238}
+  m_LocalPosition: {x: 18.571754, y: 1, z: -5.729116}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1841419379
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841419377}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.2946467}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1879921426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1879921427}
+  - component: {fileID: 1879921428}
+  m_Layer: 0
+  m_Name: Waterline 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1879921427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879921426}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.3888785, z: -0, w: 0.9212891}
+  m_LocalPosition: {x: 25.132706, y: 1, z: 36.816917}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1879921428
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879921426}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.132243}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1919351875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1919351876}
+  - component: {fileID: 1919351877}
+  m_Layer: 0
+  m_Name: Waterline 23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1919351876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919351875}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9992662, z: -0, w: -0.038302105}
+  m_LocalPosition: {x: -33.3567, y: 1, z: 19.866522}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1919351877
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919351875}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.8440328}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1959272536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1959272537}
+  - component: {fileID: 1959272538}
+  m_Layer: 0
+  m_Name: Waterline 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1959272537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959272536}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.4475853, z: -0, w: 0.8942413}
+  m_LocalPosition: {x: 22.04079, y: 1, z: 39.45658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1959272538
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959272536}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.215649}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1996293857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1996293858}
+  - component: {fileID: 1996293859}
+  m_Layer: 0
+  m_Name: Waterline 45
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1996293858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996293857}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.18809599, z: -0, w: 0.9821507}
+  m_LocalPosition: {x: 31.65424, y: 1, z: 8.826517}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1996293859
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996293857}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.912285}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2006186873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2006186874}
+  - component: {fileID: 2006186875}
+  m_Layer: 0
+  m_Name: Waterline 18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2006186874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006186873}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9212891, z: -0, w: -0.3888785}
+  m_LocalPosition: {x: -25.132706, y: 1, z: 36.816917}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2006186875
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006186873}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.132243}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2016678094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2016678095}
+  - component: {fileID: 2016678096}
+  m_Layer: 0
+  m_Name: Waterline 38
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2016678095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016678094}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.6006873, z: -0, w: 0.79948413}
+  m_LocalPosition: {x: 10.745169, y: 1, z: -9.024216}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2016678096
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016678094}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.420199}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2043264858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2043264859}
+  - component: {fileID: 2043264860}
+  m_Layer: 0
+  m_Name: Waterline 39
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2043264859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043264858}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.5531607, z: -0, w: 0.8330746}
+  m_LocalPosition: {x: 14.784948, y: 1, z: -7.59564}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2043264860
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043264858}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.364204}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2080631110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2080631111}
+  - component: {fileID: 2080631112}
+  m_Layer: 0
+  m_Name: Waterline 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2080631111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080631110}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.11420442, z: -0, w: 0.9934573}
+  m_LocalPosition: {x: 32.785957, y: 1, z: 23.567638}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2080631112
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080631110}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.8674512}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2132179882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2132179883}
+  - component: {fileID: 2132179884}
+  m_Layer: 0
+  m_Name: Waterline 20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2132179883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132179882}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9658982, z: -0, w: -0.25892216}
+  m_LocalPosition: {x: -29.980907, y: 1, z: 30.622372}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2132179884
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132179882}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 3.9747992}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2136128958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2136128959}
+  - component: {fileID: 2136128960}
+  m_Layer: 0
+  m_Name: Waterline 12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2136128959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136128958}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7265909, z: -0, w: 0.68707037}
+  m_LocalPosition: {x: -2.1863148, y: 1, z: 46.47766}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164944144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2136128960
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136128958}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 3, z: 4.479467}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 507892820}
+  - {fileID: 1691750417}
+  - {fileID: 468701546}
+  - {fileID: 676983208}
+  - {fileID: 1214706721}
+  - {fileID: 164944144}
+  - {fileID: 162740323}

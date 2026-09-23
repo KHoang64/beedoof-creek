@@ -1,25 +1,47 @@
-# Beaver Creek
+# BeeDoofCreek — Beaver Creek
 
-A playable Unity WebGL experience with first-person creek exploration, animated ducks, rainy woodland scenery, and a cinematic viewing mode.
+The complete Unity source project for a woodland creek experience with animated ducks, rainy scenery, first-person exploration, and a cinematic viewing mode.
 
-## Play online
+**[Play the hosted WebGL version on Vercel](https://beaver-creek-web.vercel.app)**
 
-**[Launch Beaver Creek on Vercel](https://beaver-creek-web.vercel.app)**
+## Open the project
+
+1. Install Unity **6000.5.5f1** through Unity Hub, including Web build support if you want to export the browser version.
+2. Install Git LFS, then clone the repository:
+
+   ```sh
+   git lfs install
+   git clone https://github.com/KHoang64/beaver-creek-web.git
+   cd beaver-creek-web
+   git lfs pull
+   ```
+
+3. Add the cloned folder to Unity Hub and open it. Unity restores packages and regenerates its local Library folder.
+4. Open `Assets/BeaverCreek/Scenes/BeaverCreek_Menu.unity` to start the experience.
+
+Use a Git clone with Git LFS to obtain the complete binary assets.
+
+## Repository contents
+
+- `Assets/`: all Unity assets, scripts, scenes, prefabs, and their `.meta` files.
+- `Packages/` and `ProjectSettings/`: package versions and Unity project configuration.
+- `Blender Export/`: supporting model source/export files.
+- `Docs/`, `Data/`, and `WebSupport/`: project notes, validation evidence, supporting data, and web hosting utilities.
+
+Textures, models, binary terrain data, and other binary assets use Git LFS. Text-based Unity scenes, prefabs, settings, scripts, and metadata remain ordinary Git files. Generated caches, local backups, IDE files, and build output are excluded.
 
 ## Controls
 
-- **Explore on desktop:** WASD or arrow keys to move, mouse to look, Shift to move faster, R to reset, and Escape for the menu.
-- **Explore on touch devices:** use the left thumbstick to move and swipe on the right to look. Menu and Reset are at the top.
-- **Watch the cutscene:** use Pause/Play and Replay, or Space and R on desktop.
+- **Desktop:** WASD or arrow keys to move, mouse to look, Shift to move faster, R to reset, and Escape for the menu.
+- **Touch:** left thumbstick to move, swipe on the right to look, and use the Menu and Reset buttons at the top.
+- **Cutscene:** Pause/Play and Replay, or Space and R on desktop.
 
-## About this repository
+## Web hosting
 
-This repository contains the exported web player from the BeeDoofCreek Unity project, built with Unity 6000.5.5f1. The Unity source project is maintained separately.
+The playable WebGL export is hosted at **https://beaver-creek-web.vercel.app**. This source repository is separate from the deployed static export; pushing Unity source does not rebuild the hosted player.
 
-## Hosting
+Use **Tools → Beaver Creek → Build WebGL for Vercel** in Unity, then deploy the generated export directory with `vercel deploy --prod`. The exporter copies the required gzip and MIME headers from `WebSupport/vercel.json`.
 
-Vercel serves the static files from the repository root. No build command is needed. The included `vercel.json` supplies the gzip encoding and MIME headers required by the Unity WebGL player.
+See [web build and controls documentation](WebSupport/README.md) and [project context](Docs/AI/UnityProjectContext.md) for more detail.
 
-To deploy with the Vercel CLI, run `vercel deploy --prod` from this directory after signing in.
-
-The build files must be served over HTTP with the configured headers; opening `index.html` directly from disk is not supported.
+Third-party assets remain subject to their original licenses.

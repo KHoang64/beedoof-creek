@@ -1,0 +1,18 @@
+Web experience runtime check 9/21/2026 8:45:54 PM
+PASS Menu is the web startup scene
+PASS Explore button loads first-person scene
+Portrait scene canvases=1; roots=Creek interface:True:ScreenSpaceOverlay; pads=2
+PASS Touch joystick moves CharacterController without keyboard/mouse lock
+PASS Second pointer rotates view while first pointer moves
+PASS An unrelated finger cannot release the active joystick
+PASS Joystick release clears movement
+PASS Player remains grounded after touch movement
+PASS Menu blocks gameplay and clears touch input
+PASS Watch button loads cutscene
+PASS Pause button pauses the cutscene
+PASS Paused camera remains stationary
+PASS Replay returns to the first shot and resumes
+PASS Repeated mode switch starts with clean input
+PASS Mode switches keep exactly one EventSystem
+PASS: all runtime checks; zero runtime errors.
+Restored original scene setup.
