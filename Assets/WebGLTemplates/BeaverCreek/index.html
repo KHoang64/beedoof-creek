@@ -16,13 +16,22 @@
 <div id="loading"><main class="card"><div class="eyebrow">FIELD NOTES / BEAVER POND</div><h1>A moment<br>in the woods.</h1><p>Explore the shoreline or watch life at the pond.<br>Your quiet afternoon is loading.</p><div class="line"><div id="bar"></div></div><div id="status" role="status">Preparing the creek…</div><div id="error" role="alert"></div><p class="hint">Desktop: WASD + mouse<br>Mobile: left thumb to move · swipe right to look</p></main></div>
 <script>
 const canvas=document.getElementById('unity-canvas'), loading=document.getElementById('loading');
+// Bound GPU fill cost on phones and large/high-DPI desktop displays.
+const mobile=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+function resizeCanvas(){
+ const width=Math.max(1,canvas.clientWidth),height=Math.max(1,canvas.clientHeight);
+ const budget=mobile?921600:2073600;
+ const ratio=Math.min(window.devicePixelRatio||1,mobile?1.25:1.5,Math.sqrt(budget/(width*height)));
+ canvas.width=Math.max(1,Math.round(width*ratio));canvas.height=Math.max(1,Math.round(height*ratio));
+}
+resizeCanvas();window.addEventListener('resize',resizeCanvas);
 function fail(message){document.getElementById('status').textContent='The creek could not load.';const box=document.getElementById('error');box.style.display='block';box.textContent='Please try again in a browser with WebGL 2 support. '+message;const retry=document.createElement('button');retry.textContent='Try again';retry.onclick=()=>location.reload();box.appendChild(document.createElement('br'));box.appendChild(retry);}
 canvas.addEventListener('contextmenu',e=>e.preventDefault());
 const script=document.createElement('script');script.src='Build/{{{ LOADER_FILENAME }}}';script.onerror=()=>fail('Check your connection.');
 script.onload=()=>createUnityInstance(canvas,{
  dataUrl:'Build/{{{ DATA_FILENAME }}}',frameworkUrl:'Build/{{{ FRAMEWORK_FILENAME }}}',codeUrl:'Build/{{{ CODE_FILENAME }}}',streamingAssetsUrl:'StreamingAssets',
  companyName:{{{ JSON.stringify(COMPANY_NAME) }}},productName:{{{ JSON.stringify(PRODUCT_NAME) }}},productVersion:{{{ JSON.stringify(PRODUCT_VERSION) }}},
- devicePixelRatio:Math.min(window.devicePixelRatio||1,matchMedia('(pointer:coarse)').matches?1.25:1.5),
+ matchWebGLToCanvasSize:false,
  showBanner:(message,type)=>{if(type==='error')console.error(message);else console.warn(message);}
 },progress=>{document.getElementById('bar').style.width=(progress*100)+'%';document.getElementById('status').textContent=progress<.9?'Loading the creek · '+Math.round(progress*100)+'%':'Opening the woodland…';}).then(instance=>{window.creekInstance=instance;loading.hidden=true;canvas.focus();}).catch(error=>fail(String(error)));
 document.body.appendChild(script);

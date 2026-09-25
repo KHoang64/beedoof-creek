@@ -1,0 +1,103 @@
+WebGL asset audit (imported texture allocation, not device GPU profiling)
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTree4/BigTree4_Impostor_mask.tga
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Rocks/Textures/MossyRock_mask.png
+Texture	1024x512	DXT1	744440	Assets/BeaverCreek/Validation/FirstPerson.png
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Textures/Water/WaterMoss_mask.png
+Texture	1024x1024	DXT5	2841600	Assets/SoStylized/Environment/Trees/Textures/T_PineBark_N.PNG
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTree1/BigTree1_Impostor_n.tga
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/Bush/Bush2/Bush2_Impostor_a.tga
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/Bush/BushLeaves_a.tga
+Texture	1024x1024	DXT5	2841600	Assets/Patchmesh/Country Critters - Stylized Hand-Painted Ducks/Textures/Duck Black.png
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTree4/BigTree4_Impostor_n.tga
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTree4/BigTree4_Impostor_a.tga
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTree2/BigTree2_Impostor_n.tga
+Texture	1024x1024	DXT5	2841600	Assets/Patchmesh/Country Critters - Stylized Hand-Painted Ducks/Textures/Duck Grey.png
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Textures/Surfaces/Mud02_n.png
+Texture	256x1024	DXT5	744480	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTreeTrunk2_m.png
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Plants/Textures/DeadLeaves_n.png
+Texture	512x512	DXT5	744400	Assets/BK/PureNature_FantasyForest/Models/Plants/Textures/ShrubLeaf1_a.png
+Texture	256x1024	DXT5	744480	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTreeTrunk3_n.png
+Texture	1024x1024	DXT1	1421640	Assets/BK/PureNature_FantasyForest/Textures/Surfaces/Grass01_a.png
+Texture	1024x1024	DXT1	1421640	Assets/BK/PureNature_FantasyForest/Textures/Surfaces/Mud02_a.png
+Texture	1024x1024	DXT1	1421640	Assets/BK/PureNature_FantasyForest/Models/Trees/Bush/Bush2/Bush2_Impostor_n.tga
+Texture	1024x1024	DXT5	2841600	Assets/Patchmesh/Country Critters - Stylized Hand-Painted Ducks/Textures/Duck Brown.png
+Texture	64x64	RGBA32	33912	Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputSystemUIInputModule@64.png
+Texture	1024x1024	DXT5	2841600	Assets/SoStylized/Environment/Trees/Textures/T_BirchBark_N.png
+Texture	1024x1024	DXT1	1421640	Assets/SoStylized/Environment/Trees/Textures/T_RedMapleBark_BC.png
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTreeLeaves_a 1.tga
+Texture	1024x1024	DXT1	1421640	Assets/BK/PureNature_FantasyForest/Textures/Surfaces/Moss02_a.png
+Texture	512x512	RGBA32	2841524	Assets/BeaverCreek/Generated/CreekTerrain.asset
+Texture	512x512	RGBA32	2841524	Assets/BeaverCreek/Generated/CreekTerrain.asset
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Rocks/Textures/MossyRock_n.png
+Texture	512x512	DXT5	744400	Assets/BK/PureNature_FantasyForest/Models/Plants/Textures/LargeFern_n.png
+Texture	1024x1024	DXT5	2841600	Assets/Patchmesh/Country Critters - Stylized Hand-Painted Ducks/Textures/Duck White.png
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Plants/Textures/DeadLeaves_a.png
+Texture	1024x1024	DXT5	2098352	Assets/Patchmesh/Country Critters - Stylized Hand-Painted Ducks/Textures/Feather Drake Blue.png
+Texture	256x1024	DXT1	373080	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTreeTrunk3_a.png
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTree3/BigTree3_Impostor_a.tga
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/Bush/Bush1/Bush1_Impostor_mask.tga
+Texture	1024x1024	DXT1	1421640	Assets/SoStylized/Environment/Trees/Textures/T_OakBark_BC.png
+Texture	1024x1024	DXT1	1421640	Assets/BK/PureNature_FantasyForest/Models/Trees/Bush/BushLeaves_n.tga
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Textures/Water/WaterMoss_a.png
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTree3/BigTree3_Impostor_n.tga
+Texture	1024x1024	DXT5	2098352	Assets/Patchmesh/Country Critters - Stylized Hand-Painted Ducks/Textures/Duck Feather - Grey.png
+Texture	1024x1024	DXT1	1421640	Assets/SoStylized/Environment/Trees/Textures/T_BirchBark_R.png
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTree3/BigTree3_Impostor_mask.tga
+Texture	1024x1024	DXT5	2098352	Assets/Patchmesh/Country Critters - Stylized Hand-Painted Ducks/Textures/Feather Drake Brown.png
+Texture	1024x1024	DXT5	2841600	Assets/Patchmesh/Country Critters - Stylized Hand-Painted Ducks/Textures/Drake.png
+Texture	256x256	DXT5	180240	Assets/BK/PureNature_FantasyForest/Models/Plants/Textures/Grass_a.png
+Texture	1024x1024	DXT1	1421640	Assets/SoStylized/Environment/Trees/Textures/T_BirchBark_BC.png
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Textures/Surfaces/Moss01_n.png
+Texture	1024x1024	DXT1	1421640	Assets/BK/PureNature_FantasyForest/Models/Plants/Textures/_NoiseGrass.png
+Texture	256x1024	DXT1	373080	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTreeTrunk2_a.png
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Textures/Water/WaterMoss_n.png
+Texture	1024x1024	DXT1	1421624	Assets/SoStylized/Textures/Noise/T_NoiseStylized.PNG
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Textures/Surfaces/Grass01_m.png
+Texture	1024x1024	DXT1	1421640	Assets/SoStylized/Environment/Trees/Textures/T_PineBark_BC.PNG
+Texture	256x1024	DXT5	744480	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTreeTrunk3_m.png
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTree1/BigTree1_Impostor_mask.tga
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTree2/BigTree2_Impostor_mask.tga
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Plants/Textures/DeadLeaves_m.png
+Texture	512x1024	DXT5	1421664	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTreeTrunk_mask.tga
+Texture	512x512	DXT1	373016	Assets/BK/PureNature_FantasyForest/Textures/Water/Water01_foam_mask.png
+Texture	256x256	Cubemap	1118096	Assets/BeaverCreek/Generated/PondReflection.exr
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTree2/BigTree2_Impostor_a.tga
+Texture	512x512	DXT1	263344	Assets/SoStylized/Environment/Trees/Textures/T_Leaf_Pine.PNG
+Texture	1024x1024	DXT5	2841600	Assets/Patchmesh/Country Critters - Stylized Hand-Painted Ducks/Textures/Duck Normal.png
+Texture	1024x1024	DXT5	2841600	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTree1/BigTree1_Impostor_a.tga
+Texture	1024x1024	DXT1	1421640	Assets/BK/PureNature_FantasyForest/Textures/Surfaces/Moss01_a.png
+Texture	512x512	DXT5	744400	Assets/BK/PureNature_FantasyForest/Models/Plants/Textures/ShrubLeaf1_n.png
+Texture	1024x1024	DXT5	2841601	Assets/BK/PureNature_FantasyForest/Models/Trees/Bush/Bush3/Bush3_Impostor_a.tga
+Texture	512x512	DXT5	744401	Assets/BK/PureNature_FantasyForest/Textures/Water/Water01_foam_n.png
+Texture	1024x1024	DXT5	2841601	Assets/BK/PureNature_FantasyForest/Models/Trees/Bush/Bush3/Bush3_Impostor_mask.tga
+Texture	512x512	RGBA32	2841525	Assets/BK/PureNature_FantasyForest/Textures/Water/Water01_n.png
+Texture	256x1024	DXT5	744481	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTreeTrunk2_n.png
+Texture	1024x1024	DXT1	1421641	Assets/BK/PureNature_FantasyForest/Models/Trees/Bush/Bush3/Bush3_Impostor_n.tga
+Texture	1024x1024	DXT1	1421641	Assets/BK/PureNature_FantasyForest/Models/Rocks/Textures/MossyRock_a.png
+Texture	1024x1024	DXT1	1421641	Assets/SoStylized/Environment/Trees/Textures/T_PineBark_R.PNG
+Texture	512x512	DXT5	744401	Assets/BK/PureNature_FantasyForest/Models/Plants/Textures/LargeFern_a.png
+Texture	1024x1024	DXT1	1421641	Assets/BK/PureNature_FantasyForest/Models/Trees/Bush/Bush1/Bush1_Impostor_n.tga
+Texture	1024x1024	DXT5	2098353	Assets/Patchmesh/Country Critters - Stylized Hand-Painted Ducks/Textures/Duck Feather - Brown.png
+Texture	1024x1024	DXT5	2841601	Assets/BK/PureNature_FantasyForest/Textures/Surfaces/Grass01_n.png
+Texture	1024x1024	DXT5	2841601	Assets/BK/PureNature_FantasyForest/Models/Trees/Bush/Bush2/Bush2_Impostor_mask.tga
+Texture	1024x1024	DXT5	2841601	Assets/BK/PureNature_FantasyForest/Textures/Surfaces/Moss02_n.png
+Texture	1024x1024	DXT1	1421641	Assets/BK/Pure_Common/Textures/_Dev/Checker_a.png
+Texture	1024x1024	DXT5	2842113	Assets/BK/PureNature_FantasyForest/Models/Trees/Bush/Bush1/Bush1_Impostor_a.tga
+Texture	1024x1024	DXT5	2841601	Assets/BK/PureNature_FantasyForest/Models/Trees/BigTree/BigTreeLeaves_n.tga
+Texture	1024x1024	DXT5	2098353	Assets/Patchmesh/Country Critters - Stylized Hand-Painted Ducks/Textures/Feather Drake.png
+Texture	1024x1024	DXT5	2841601	Assets/BK/PureNature_FantasyForest/Textures/Surfaces/Mud02_m.png
+Total textures: 87; imported allocation bytes: 178375959
+Scene Assets/BeaverCreek/Scenes/BeaverCreek_FirstPerson.unity: renderers including all LODs=4211; material slots=4635; LOD groups=656
+Group Water and BK floating moss: children=105; renderers=105
+Group Layered far-bank pines • SoStylized: children=140; renderers=420
+Group BK broadleaf canopy and bank trees: children=41; renderers=164
+Group Ferns, shrubs and meadow grass • BK: children=1799; renderers=3062
+Group Leaf litter, roots and shoreline stones: children=228; renderers=408
+Group Pond safety boundary • collision only: children=48; renderers=0
+Scene Assets/BeaverCreek/Scenes/BeaverCreek_Cutscene.unity: renderers including all LODs=4212; material slots=4639; LOD groups=656
+Group Water and BK floating moss: children=105; renderers=105
+Group Layered far-bank pines • SoStylized: children=140; renderers=420
+Group BK broadleaf canopy and bank trees: children=41; renderers=164
+Group Ferns, shrubs and meadow grass • BK: children=1799; renderers=3062
+Group Leaf litter, roots and shoreline stones: children=228; renderers=408
+Group Patchmesh ducks and driftwood: children=21; renderers=39

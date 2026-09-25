@@ -28,12 +28,15 @@ namespace BeaverCreek
         GameObject menu, hud, touch, resume;
         Text playLabel, shotLabel, loadingLabel;
         bool menuOpen, loading;
+        bool mobileProfile;
         Rect previousSafe;
         Vector2 previousSize;
         Sprite disc;
 
         void Awake()
         {
+            mobileProfile = Application.isMobilePlatform || (Application.platform == RuntimePlatform.WebGLPlayer && Screen.width <= 700);
+            if (mobileProfile) ConfigureMobilePerformance();
             font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
             if (Application.platform == RuntimePlatform.WebGLPlayer)
             {
@@ -97,6 +100,37 @@ namespace BeaverCreek
             ShowMenu(isMenu);
             UpdateLayout();
             Application.targetFrameRate = 60;
+        }
+        void ConfigureMobilePerformance()
+        {
+            // Keep the 60 FPS cap, but make the first frame cheaper on phone GPUs.
+            QualitySettings.lodBias = Mathf.Min(QualitySettings.lodBias, .65f);
+            QualitySettings.anisotropicFiltering = AnisotropicFiltering.Disable;
+            var pipeline = UnityEngine.Rendering.GraphicsSettings.currentRenderPipeline as UniversalRenderPipelineAsset;
+            if (pipeline)
+            {
+                pipeline.renderScale = Mathf.Min(pipeline.renderScale, .72f);
+                pipeline.msaaSampleCount = 1;
+            }
+            // The generated scene has many small, independent undergrowth prefabs. Keep the
+            // path and pond framing intact while removing alternating distant detail objects.
+            var roots = SceneManager.GetActiveScene().GetRootGameObjects();
+            foreach (var root in roots)
+            {
+                foreach (var group in root.GetComponentsInChildren<Transform>(true))
+                {
+                    if (group.name.StartsWith("Ferns, shrubs and meadow grass"))
+                        CullChildren(group, .45f);
+                    else if (group.name.StartsWith("Leaf litter, roots and shoreline stones"))
+                        CullChildren(group, .35f);
+                }
+            }
+        }
+        static void CullChildren(Transform group, float keepFraction)
+        {
+            int keep = Mathf.RoundToInt(group.childCount * keepFraction);
+            for (int i = 0; i < group.childCount; i++)
+                group.GetChild(i).gameObject.SetActive(i < keep);
         }
         void CreateMenu()
         {

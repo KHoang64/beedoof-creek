@@ -1,21 +1,31 @@
-# Web deployment handoff
+# Web deployment — 2026-09-24
 
-## Export
+Live: https://beaver-creek-web.vercel.app/
 
-- Status: Unity WebGL build succeeded.
-- Unity: 6000.5.5f1, WebGL, release build.
-- Scenes: `BeaverCreek_Menu`, `BeaverCreek_FirstPerson`, `BeaverCreek_Cutscene`.
-- Output: `Builds/BeaverCreekWeb/`.
-- Build report: 71,898,872 bytes, 59 seconds, 0 errors, 4 warnings.
-- Main compressed files: 57 MB data, 11 MB wasm, 76 KB framework, 28 KB loader.
-- The WebGL-only texture override is capped at 1024 and originals are preserved in `Backups/WebTextureImport`.
+Vercel project: khoang99s-projects/beedoof-creek.
+Production deployment: dpl_6Z7g9d2TRA8gu6UEaGyJpTR31MEv (Ready).
+The original live alias was explicitly assigned to this deployment.
 
-## Vercel
+Unity 6000.5.1f1, WebGL release, three scenes: Menu, FirstPerson, Cutscene.
+Final build succeeded in 46.765 seconds with exit code 0 and no build errors.
+Build log: Logs/WebGLFinal.log. Export: Builds/BeaverCreekWeb.
+Clean upload directory: Builds/BeaverCreekDeploy (HTML, hosting config and
+four player files only). About 68.8 MiB uploaded.
 
-The export includes `vercel.json` with the correct WebAssembly, JavaScript and data-file `Content-Encoding: gzip` headers. Deploy from the project root after the Vercel CLI is authenticated:
+Web-only shader/material copies fix unsupported BK shader targets and water
+tessellation. Native scene and vendor materials are preserved. Mobile and desktop
+target 60 FPS; physical-device performance is not yet measured.
 
-```sh
-npx vercel deploy Builds/BeaverCreekWeb --prod --yes
-```
+Validated local desktop and portrait rendering, mode navigation, gzip integrity,
+WASM signature, and the live cutscene at the original production URL. No browser
+errors were captured. Existing URP/vendor deprecation and unused FSR warnings
+remain. Details: WebGLShaderFix.md.
 
-The CLI session was authenticated during this task, but the Codex sandbox could not make the final outbound Vercel API request: its network escalation was rejected by the current usage-limit gate. No deployment URL was created or reported by the CLI. The command above is ready to run in a normal terminal and does not rebuild the project.
+Rebuild using Tools → Beaver Creek → Build WebGL for Vercel, or the
+BeaverCreek.Editor.BeaverCreekWebBuild.BuildWeb batch entry point. Restart Unity
+following WebGL module installation. Hashed filenames are disabled because this
+Unity version's batch exporter hit Bee's buildprogram retry limit; Vercel headers
+revalidate HTML and build assets to prevent stale players.
+
+The machine's global Vercel CLI 39 is too old for the upload endpoint. This
+deployment used npx --yes vercel@latest (59.26.0).

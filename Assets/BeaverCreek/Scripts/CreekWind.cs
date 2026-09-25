@@ -14,7 +14,8 @@ namespace BeaverCreek
             Shader.SetGlobalFloat("MicroPower", .06f);
             Shader.SetGlobalFloat("MicroSpeed", .65f);
             Shader.SetGlobalFloat("MicroFrequency", 2f);
-            Shader.SetGlobalFloat("GrassRenderDist", 110f);
+            bool mobile = Application.isMobilePlatform || (Application.platform == RuntimePlatform.WebGLPlayer && Screen.width <= 700);
+            Shader.SetGlobalFloat("GrassRenderDist", mobile ? 58f : 110f);
         }
     }
 }

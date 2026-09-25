@@ -66,7 +66,11 @@ namespace BeaverCreek.Editor
             AssetDatabase.SaveAssets();
             File.WriteAllText("Temp/BeaverCreekWebPrepare.txt", "Prepared menu and scene controls; three-scene WebGL export configured. " + DateTime.Now);
         }
-        public static void SwitchWeb() { EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.WebGL, BuildTarget.WebGL); }
+        public static void SwitchWeb()
+        {
+            if (!EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.WebGL, BuildTarget.WebGL))
+                throw new InvalidOperationException("Unity could not switch to WebGL. Check WebGL Build Support installation and the Editor log.");
+        }
         public static void OptimizeWebTextures()
         {
             var changed = new System.Collections.Generic.List<string>();
@@ -75,31 +79,52 @@ namespace BeaverCreek.Editor
                 var importer = AssetImporter.GetAtPath(path) as TextureImporter;
                 if (!importer || importer.textureShape != TextureImporterShape.Texture2D) continue;
                 var settings = importer.GetPlatformTextureSettings("WebGL");
-                if (settings.overridden && settings.maxTextureSize <= 1024) continue;
-                if (!settings.overridden && importer.maxTextureSize <= 1024) continue;
+                // 512px keeps phone texture residency bounded; the scene is viewed at
+                // mobile render scale and the original source import remains untouched.
+                int mobileMax = importer.textureType == TextureImporterType.Sprite ? 1024 : 512;
+                if (settings.overridden && settings.maxTextureSize <= mobileMax) continue;
+                if (!settings.overridden && importer.maxTextureSize <= mobileMax) continue;
                 string backup = "Backups/WebTextureImport/" + path + ".meta";
                 Directory.CreateDirectory(Path.GetDirectoryName(backup));
                 if (!File.Exists(backup)) File.Copy(path + ".meta", backup);
-                settings.name = "WebGL"; settings.overridden = true; settings.maxTextureSize = 1024;
+                settings.name = "WebGL"; settings.overridden = true; settings.maxTextureSize = mobileMax;
                 settings.format = TextureImporterFormat.Automatic;
                 settings.textureCompression = TextureImporterCompression.Compressed;
                 importer.SetPlatformTextureSettings(settings); importer.SaveAndReimport(); changed.Add(path);
             }
             Directory.CreateDirectory("Docs/QA/WebExperience");
-            File.WriteAllText("Docs/QA/WebExperience/WebTextureOverrides.txt", "WebGL-only maximum texture size: 1024. Original .meta files are in Backups/WebTextureImport.\n" + string.Join("\n", changed));
+            File.WriteAllText("Docs/QA/WebExperience/WebTextureOverrides.txt", "WebGL-only maximum texture size: 512 (1024 for sprites). Original .meta files are in Backups/WebTextureImport.\n" + string.Join("\n", changed));
         }
         [MenuItem("Tools/Beaver Creek/Build WebGL for Vercel")]
         public static void BuildWeb()
         {
+            if (!BuildPipeline.IsBuildTargetSupported(BuildTargetGroup.WebGL, BuildTarget.WebGL))
+                throw new InvalidOperationException("Install WebGL Build Support for this Unity version in Unity Hub before exporting.");
             if (EditorUserBuildSettings.activeBuildTarget != BuildTarget.WebGL) throw new InvalidOperationException("Switch to WebGL first.");
+            // Configure every export, including exports that did not run Prepare.
+            PlayerSettings.WebGL.template = "PROJECT:BeaverCreek";
+            PlayerSettings.WebGL.compressionFormat = WebGLCompressionFormat.Gzip;
+            PlayerSettings.WebGL.decompressionFallback = false;
+            // Unity 6000.5 batch exports can loop in Bee with hashed filenames.
+            // Hosting revalidates build files instead of caching an old player.
+            PlayerSettings.WebGL.nameFilesAsHashes = false;
+            PlayerSettings.WebGL.dataCaching = true;
+            PlayerSettings.WebGL.initialMemorySize = 128;
+            PlayerSettings.WebGL.maximumMemorySize = 1024;
             OptimizeWebTextures();
+            BeaverCreekWebShaders.Prepare(Scenes);
             Directory.CreateDirectory("Builds/BeaverCreekWeb");
             var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
             {
                 scenes = Scenes, locationPathName = "Builds/BeaverCreekWeb", target = BuildTarget.WebGL, options = BuildOptions.None
             });
             File.WriteAllText("Temp/BeaverCreekWebBuild.txt", report.summary.result + "\nSize: " + report.summary.totalSize + "\nDuration: " + report.summary.totalTime + "\nErrors: " + report.summary.totalErrors + "\nWarnings: " + report.summary.totalWarnings);
-            if (report.summary.result != BuildResult.Succeeded) throw new InvalidOperationException("WebGL build failed; see build report and Editor log.");
+            if (report.summary.result != BuildResult.Succeeded || report.summary.totalErrors != 0)
+                throw new InvalidOperationException("WebGL build reported errors; see build report and Editor log.");
+            if (!File.Exists("Builds/BeaverCreekWeb/index.html") ||
+                !Directory.Exists("Builds/BeaverCreekWeb/Build") ||
+                !Directory.GetFiles("Builds/BeaverCreekWeb/Build", "*.wasm.gz").Any())
+                throw new InvalidOperationException("WebGL player files are missing. Restart Unity after installing WebGL Build Support, then rebuild.");
             File.Copy("WebSupport/vercel.json", "Builds/BeaverCreekWeb/vercel.json", true);
         }
     }
