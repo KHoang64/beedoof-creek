@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"
+    />
+    <meta name="theme-color" content="#273c34" />
+    <meta
+      name="description"
+      content="Explore BeeDoof Creek, a watercolor woodland pond with ducks, rain, and music."
+    />
+    <title>BeeDoof Creek · Woodland afternoon</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%23283f34%22/%3E%3Cpath d=%22M32 8 12 40h13v16h14V40h13z%22 fill=%22%23dce5af%22/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="scene" aria-label="Interactive BeeDoof Creek woodland scene"></div>
+    <canvas id="rain" aria-hidden="true"></canvas>
+    <div class="wash" aria-hidden="true"></div>
+    <div id="loading" class="screen">
+      <div class="card">
+        <span class="eyebrow">A QUIET PLACE IN THE WOODS</span>
+        <h1>BeeDoof<br />Creek</h1>
+        <p>Preparing the watercolor woodland…</p>
+        <div class="track"><div id="progress"></div></div>
+        <p id="load-note" role="status">Growing the forest</p>
+      </div>
+    </div>
+    <div id="menu" class="screen" hidden>
+      <main class="card">
+        <span class="eyebrow">FIELD NOTES · BEEDOOF CREEK</span>
+        <h1>A moment<br />by the pond.</h1>
+        <p>Follow the muddy path, watch the ducks, and listen to the rain.</p>
+        <div class="menu-actions">
+          <button id="explore" class="primary">Explore the creek</button
+          ><button id="watch">Watch the film</button>
+        </div>
+        <p class="hint">
+          WASD and mouse on desktop · left thumb to walk and right swipe to look
+          on touchscreens
+        </p>
+      </main>
+    </div>
+    <div id="hud" hidden>
+      <div class="topbar">
+        <button id="menu-button" aria-label="Open menu">
+          ☰ <span>Menu</span></button
+        ><span class="brand">BeeDoof Creek</span
+        ><button id="reset" aria-label="Reset view">
+          ↺ <span>Reset</span>
+        </button>
+      </div>
+      <div class="controls">
+        <label class="volume"
+          ><span>♫</span
+          ><input
+            id="volume"
+            aria-label="Music volume"
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            value="0.32"
+          /><span id="volume-value">32%</span></label
+        ><button id="rain-toggle" aria-pressed="true">Rain on</button>
+      </div>
+      <div id="film-controls" hidden>
+        <button id="pause">Pause</button><button id="replay">Replay</button>
+      </div>
+      <div id="touch-controls">
+        <div id="joystick" aria-label="Move"><div id="stick"></div></div>
+        <div id="look-pad" aria-label="Swipe to look"><span>LOOK</span></div>
+      </div>
+      <div id="desktop-hint">
+        Click to look · WASD to walk · Shift to hurry · Esc to release
+      </div>
+    </div>
+    <audio id="music" src="/assets/route-209.mp3" preload="none" loop></audio>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
