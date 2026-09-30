@@ -2,7 +2,7 @@
 
 The complete Unity source project for a woodland creek experience with animated ducks, rainy scenery, first-person exploration, and a cinematic viewing mode.
 
-**[Play the hosted WebGL version on Vercel](https://beaver-creek-web.vercel.app)**
+**[Play the Three.js remake on Vercel](https://beedoof-creak.vercel.app)**
 
 ## Open the project
 
@@ -38,10 +38,10 @@ Textures, models, binary terrain data, and other binary assets use Git LFS. Text
 
 ## Web hosting
 
-The playable WebGL export is hosted at **https://beaver-creek-web.vercel.app**. This source repository is separate from the deployed static export; pushing Unity source does not rebuild the hosted player.
+The Three.js/WebGPU remake is hosted at **https://beedoof-creak.vercel.app**. Its source and build instructions are in `WebSupport/ThreeCreek/`. The original Unity scenes and WebGL exporter remain in the project.
 
-Use **Tools → Beaver Creek → Build WebGL for Vercel** in Unity, then deploy the generated export directory with `vercel deploy --prod`. The exporter copies the required gzip and MIME headers from `WebSupport/vercel.json`.
+Run `npm ci` and `npm run build` in `WebSupport/ThreeCreek`, then deploy `Builds/BeaverCreekThree` to the existing Vercel project. The Unity WebGL exporter remains available for a separate legacy build.
 
-See [web build and controls documentation](WebSupport/README.md) and [project context](Docs/AI/UnityProjectContext.md) for more detail.
+See the [Three.js build and controls documentation](WebSupport/ThreeCreek/README.md), [legacy WebGL notes](WebSupport/README.md), and [project context](Docs/AI/UnityProjectContext.md) for more detail.
 
 Third-party assets remain subject to their original licenses.

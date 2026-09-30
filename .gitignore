@@ -38,3 +38,7 @@ Thumbs.db
 *.jks
 *.p12
 *.pfx
+
+# Three.js browser remake dependencies
+/WebSupport/ThreeCreek/node_modules/
+/WebSupport/ThreeCreek/dist/

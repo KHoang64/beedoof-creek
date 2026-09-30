@@ -1,5 +1,9 @@
 # Beaver Creek on the web
 
+The current browser remake is in [ThreeCreek](ThreeCreek/README.md). Build it with `npm ci` and `npm run build` from `WebSupport/ThreeCreek`; deploy `Builds/BeaverCreekThree`.
+
+## Legacy Unity WebGL export
+
 The exported app is Unity WebGL, preserving the existing environment, duck animations, weather and collision. A Three.js conversion was not necessary.
 
 ## Build
